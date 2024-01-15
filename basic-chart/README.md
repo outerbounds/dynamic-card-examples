@@ -4,8 +4,8 @@ A Metaflow Dynamic Card Example
 
 ![](../images/rtcard-simplechart.gif)
 
-This example shows how to create a basic updating line chart
-using a [Vega Lite](https://vega.github.io/vega-lite/) specification. Notably,
+This example shows how to create a basic updating line chart. The chart
+is specified with [Vega Lite](https://vega.github.io/vega-lite/). Notably,
 this example doesn't require any external dependencies. The chart updates
 every few seconds.
 

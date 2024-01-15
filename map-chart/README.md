@@ -4,8 +4,8 @@ A Metaflow Dynamic Card Example
 
 ![](../images/rtcard-mapchart.gif)
 
-This example shows how to create an interactive map chart
-based on [this Vega Lite example](https://altair-viz.github.io/gallery/choropleth.html).
+This example shows how to create an interactive map chart. The chart specification is
+derived from [this Vega Lite example](https://altair-viz.github.io/gallery/choropleth.html).
 The data in this chart doesn't update dynamically. Notably no external dependencies
 are required to create a chart like this.
 

@@ -4,8 +4,8 @@ A Metaflow Dynamic Card Example
 
 ![](../images/rtcard-updatingaltair.gif)
 
-This example shows how to update data in a chart created
-using the [Altair](https://altair-viz.github.io/) library on the fly.
+This example shows how to update data in an Altair chart on the fly.
+For more details, see [Altair's documentation](https://altair-viz.github.io/).
 
 See [Visualizing results](https://docs.metaflow.org/metaflow/visualizing-results) in Metaflow docs for more information.
 

@@ -4,8 +4,11 @@ A Metaflow Dynamic Card Example
 
 ![](../images/rtcard-sparklines.gif)
 
-This example shows how you can use [Vega Lite](https://vega.github.io/vega-lite/)
-to create custom charts: In this case, sparklines that work as progress bars.
+This example shows how you can use Vega Lite to to create custom charts:
+In this case, sparklines that work as progress bars. See [the extensive
+documentation of Vega Lite](https://vega.github.io/vega-lite/examples/)
+for details about the specification.
+
 Note how the state of each chart is encapsulated in a `RandomSpark` class: This
 pattern can come in handy when you create more complex updating visualizations.
 

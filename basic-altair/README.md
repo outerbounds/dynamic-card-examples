@@ -5,8 +5,8 @@ A Metaflow Dynamic Card Example
 ![](../images/rtcard-altairflow.gif)
 
 This example shows how to create a basic interactive chart
-using the [Altair](https://altair-viz.github.io/) library. This
-chart doesn't update while the task is executing.
+using Altair. For more details, see [Altair's documentation](https://altair-viz.github.io/).
+This chart doesn't update while the task is executing.
 
 See [Visualizing results](https://docs.metaflow.org/metaflow/visualizing-results) in Metaflow docs for more information.
 
