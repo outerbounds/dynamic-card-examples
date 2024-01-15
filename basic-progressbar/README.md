@@ -5,7 +5,7 @@ A Metaflow Dynamic Card Example
 ![](../images/rtcard-clockflow.gif)
 
 This example shows how to create a basic progress bar that
-updating while a task is executing.
+updates while a task is executing.
 
 See [Visualizing results](https://docs.metaflow.org/metaflow/visualizing-results) in Metaflow docs for more information.
 

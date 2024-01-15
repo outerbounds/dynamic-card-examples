@@ -5,6 +5,7 @@ import random
 import time
 import math
 
+# spec from https://altair-viz.github.io/gallery/choropleth.html
 vega_spec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 600,
