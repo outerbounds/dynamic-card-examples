@@ -13,9 +13,8 @@ This repository contains a gallery of dynamic cards, showing how you can apply t
 
 ## Starter Examples
 
-| Example  | Description |
 | ------------- | ------------- |
-| [Basic Chart](basic-chart)  |   |
+| [Basic Chart](basic-chart)  | This is an example of this and that  |
 | Content Cell  | Content Cell  |
 
 ## Monitoring Work
