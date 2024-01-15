@@ -1,6 +1,6 @@
 
 A Metaflow Dynamic Card Example
-# Monitor Results Using a Callback
+# Monitor a Subprocess
 
 ![](../images/rtcard-sklearn.gif)
 
