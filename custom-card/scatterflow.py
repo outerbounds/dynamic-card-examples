@@ -18,7 +18,6 @@ class ScatterFlow(FlowSpec):
         python="3.11.7",
     )
     @card(type="scatter3d")
-    # @card
     @step
     def start(self):
         from sklearn.datasets import make_classification
