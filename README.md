@@ -26,12 +26,26 @@ Take a look at these simple examples to get started:
 
 ## Monitoring Work
 
+Dynamic cards are well suited for monitoring work that happens *concurrently* with visualization.
+Depending on the type of work you want to monitor (and libraries you use), a few different patterns come in handy:
+
  - [Monitor with callbacks](monitor-callback) - Using callbacks to monitor progress. In this case, XGBoost training.
  - [Monitoring a thread](monitor-thread) - Monitor work happening in a separate thread. In this case, DuckDB.
  - [Monitoring a subprocess](monitor-subprocess) - Monitor work happening in a subprocess. In this case, training with SciKit Learn.
  - [Monitoring a generator](monitor-events) - Monitor work happening in a separate generator or a co-routine.
 
+## Organizing Code
+
+For pedagogical purposes, most examples in this gallery include all code in a single file. In contrast in real-life projects,
+it is a good idea to structure your cards and business logic as separate reusable modules. Take a look at the following
+examples to see how:
+
+ - [Structuring cards in modules](#) - TODO
+ - [Custom card decorator](#) - TODO
+
 ## Advanced Examples
+
+Simple things should be simple and complex things should be possible. Here are a few examples of more complex and advanced use cases:
 
  - [Custom Vega Chart](sparklines-progress) - An example of a custom Vega Lite chart, acting as a progress bar.
  - [Custom Card](custom-card) - A fully custom card using an external JS library. In this case, showing an interactive 3D scatter plot.
