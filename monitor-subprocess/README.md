@@ -5,8 +5,8 @@ A Metaflow Dynamic Card Example
 ![](../images/rtcard-sklearn.gif)
 
 This example shows a very useful and common pattern: Launching a subprocess
-to perform work in parallel to the flow that monitors the
-subprocess. Doing this is easier than it sounds using [`multiprocess.Pool`](https://docs.python.org/3/library/multiprocessing.html#module-multiprocessing.pool).
+to perform work in parallel to the main flow that monitors progress.
+Doing this is easier than it sounds using [`multiprocess.Pool`](https://docs.python.org/3/library/multiprocessing.html#module-multiprocessing.pool).
 
 Notably, this pattern works with any library as it doesn't require any
 cooperation from it. We demonstrate this with [SciKit Learn](https://scikit-learn.org/) that
