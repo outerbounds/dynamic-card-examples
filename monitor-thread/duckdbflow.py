@@ -24,7 +24,7 @@ class DuckDBFlow(FlowSpec):
             tmp.flush()
             with profile("create_table", stats_dict=stats):
                 duckdb.sql("CREATE TABLE taxi AS SELECT * FROM '%s'" % tmp.name)
-                for i in range(100):
+                for i in range(20):
                     duckdb.sql("INSERT INTO taxi SELECT * FROM '%s'" % tmp.name)
 
         time.sleep(5)
