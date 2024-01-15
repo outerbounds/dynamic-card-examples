@@ -1,6 +1,6 @@
 
 A Metaflow Dynamic Card Example
-# Basic Chart using Altair
+# Basic Chart Using Vega Lite
 
 ![](../images/rtcard-simplechart.gif)
 

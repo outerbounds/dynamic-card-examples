@@ -1,11 +1,10 @@
 
 A Metaflow Dynamic Card Example
-# Basic Progress Bar
+# Show Many Progress Bars
 
-![](../images/rtcard-clockflow.gif)
+![](../images/rtcard-manyprogress.gif)
 
-This example shows how to create a basic progress bar that
-updating while a task is executing.
+This example shows how to manage multiple concurrent progress bars.
 
 See [Visualizing results](https://docs.metaflow.org/metaflow/visualizing-results) in Metaflow docs for more information.
 
@@ -13,9 +12,9 @@ See [Visualizing results](https://docs.metaflow.org/metaflow/visualizing-results
 
 Start a local card server in a terminal (or use your existing Metaflow UI):
 ```
-python clockflow.py card server --poll-interval 1
+python manyprogress.py card server --poll-interval 1
 ```
 Execute the flow in another terminal:
 ```
-python clockflow.py run
+python manyprogress.py run
 ```
