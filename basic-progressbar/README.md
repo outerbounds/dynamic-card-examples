@@ -2,11 +2,10 @@
 A Metaflow Dynamic Card Example
 # Basic Chart using Altair
 
-![](../images/rtcard-altairflow.gif)
+![](../images/rtcard-clockflow.gif)
 
-This example shows how to create a basic interactive chart
-using the [Altair](https://altair-viz.github.io/) library. This
-chart doesn't update while the task is executing.
+This example shows how to create a basic progress bar that
+updating while a task is executing.
 
 See [Visualizing results](https://docs.metaflow.org/metaflow/visualizing-results) in Metaflow docs for more information.
 
@@ -14,9 +13,9 @@ See [Visualizing results](https://docs.metaflow.org/metaflow/visualizing-results
 
 Start a local card server in a terminal (or use your existing Metaflow UI):
 ```
-python altairflow.py --environment=pypi card server --poll-interval 1
+python clockflow.py card server --poll-interval 1
 ```
 Execute the flow in another terminal:
 ```
-python altairflow.py --environment=pypi run
+python clockflow.py run
 ```

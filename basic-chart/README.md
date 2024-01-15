@@ -17,7 +17,7 @@ Start a local card server in a terminal (or use your existing Metaflow UI):
 ```
 python simplechart.py card server --poll-interval 1
 ```
-In another terminal, execute the flow
+Execute the flow in another terminal:
 ```
 python simplechart.py run
 ```
