@@ -34,7 +34,7 @@ class ScatterFlow(FlowSpec):
         self.points = [list(arr) for arr in np_data]
         self.classes = list(map(int, np_labels))
         self.labels = [f"class-{i}" for i in range(self.num_classes)]
-        self.colors = COLORS[: self.num_classes]
+        self.colors = COLORS[: self.num_classes] #pylint: disable=invalid-slice-index
 
         batch = self.num_points // self.num_epochs
         for i in range(1, self.num_epochs + 1):
