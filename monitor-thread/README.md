@@ -20,7 +20,7 @@ need to monitor system-level metrics.
 
 Note that **it is not safe to call `current.card` operations in other threads**. Instead, you can
 perform work in other threads and call `current.card` in the main step code, as shown in this example.
-If you are not sure how your code would behave in a thread, consider using [the subprocess approach](https://github.com/outerbounds/dynamic-card-examples/tree/main/monitor-subprocess) which works universally with any code.
+If you are not sure how your code behaves in a thread, consider using [the subprocess approach](https://github.com/outerbounds/dynamic-card-examples/tree/main/monitor-subprocess) which works universally with any code.
 
 See [Visualizing results](https://docs.metaflow.org/metaflow/visualizing-results) in Metaflow docs for more information.
 
