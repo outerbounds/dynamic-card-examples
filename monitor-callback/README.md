@@ -10,7 +10,8 @@ using [XGBoost's custom callbacks](https://xgboost.readthedocs.io/en/stable/pyth
 but the same principle applies to many other libraries as well.
 
 Notably, this example is rather practical by itself: It allows you to monitor
-loss curves of XGBoost training.
+loss curves of XGBoost training. The chart is interactive, so you can observe
+metrics in detail.
 
 See [Visualizing results](https://docs.metaflow.org/metaflow/visualizing-results) in Metaflow docs for more information.
 
