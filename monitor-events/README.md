@@ -5,11 +5,11 @@ A Metaflow Dynamic Card Example
 ![](../images/rtcard-wikievents.gif)
 
 This example shows how to structure your flow in two parts: A generator (co-routine) that
-performs the actual work and the step code that monitors progress.
+executes your main workload while another function monitors progress.
 
 Here, our generator is `event_stream` which subscribes to a real-time event stream of
-edits made to Wikipedia. It collects statistics about the events and yields to the
-step periodically for visualization. The chart is interactive: Hover over a bar to
+edits made to Wikipedia. It collects statistics and yields them periodically to the
+step function for visualization. The chart is interactive: Point at a bar to
 see what edits people have made just seconds ago!
 
 You can use this pattern to structure your own applications. Just `yield` statistics
