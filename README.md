@@ -27,13 +27,13 @@ Take a look at these simple examples to get started:
 ## Monitoring Work
 
  - [Monitor with callbacks](monitor-callback) - Using callbacks to monitor progress. In this case, XGBoost training.
- - [Monitoring a threads](monitor-thread) - Monitor work happening in a separate thread. In this case, DuckDB.
+ - [Monitoring a thread](monitor-thread) - Monitor work happening in a separate thread. In this case, DuckDB.
  - [Monitoring a subprocess](monitor-subprocess) - Monitor work happening in a subprocess. In this case, training with SciKit Learn.
  - [Monitoring a generator](monitor-events) - Monitor work happening in a separate generator or a co-routine.
 
 ## Advanced Examples
 
  - [Custom Vega Chart](sparklines-progress) - An example of a custom Vega Lite chart, acting as a progress bar.
- - [Custom Card: 3D Scatter Plot](custom-card) - A fully custom card using an external JS library.
+ - [Custom Card](custom-card) - A fully custom card using an external JS library. In this case, showing an interactive 3D scatter plot.
 
 

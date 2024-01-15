@@ -4,7 +4,7 @@ A Metaflow Dynamic Card Example
 
 ![](../images/rtcard-scatterflow.gif)
 
-This is an advanced example that shows how you can use a fully custom card
+This is an advanced example that shows how to use a fully custom card
 that leverages external Javascript libraries. To learn how to create a custom
 card of your own, take a look at [the `metaflow-card-scatter3d` repository](https://github.com/outerbounds/metaflow-card-scatter3d)
 used in this example.
