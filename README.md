@@ -1,11 +1,15 @@
 
 # Gallery of Metaflow Dynamic Cards
 
-Dynamic cards allow you to monitor progress and visualize results of
-executing Metaflow tasks in real-time. For more information, see
-[Visualizing results](https://docs.metaflow.org/metaflow/visualizing-results) in Metaflow docs.
-
 ![](images/rtcard-all.gif)
+
+Imagine a long-running task, like training of an ML/AI model, a data processing task,
+or a task communicating with an external service. In all these cases, it is useful to
+know how the task is performing and how/if it is making progress while it is running.
+
+Metaflow allows you to [orchestrate even large compute tasks](https://docs.metaflow.org/scaling/introduction)
+easily, which you can then [monitor live using dynamic cards](https://docs.metaflow.org/metaflow/visualizing-results).
+This repository contains a gallery of dynamic cards, showing how you can apply them in various use cases.
 
 ## Starter Examples
 
