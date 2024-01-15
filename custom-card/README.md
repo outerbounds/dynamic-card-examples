@@ -13,6 +13,14 @@ The `scatter3d` custom card shows an interactive 3D scatter plot, powered by
 [Google's `scatter-gl` library](https://github.com/PAIR-code/scatter-gl/).
 Here, we generate a dummy 3D test dataset, but you can use `scatter3d` to visualize any 3D or 2D data of your own.
 
+### Key bindings
+
+Interact with the chart as follows:
+
+- Drag to rotate the chart.
+- Hold down Ctrl + Drag to move the chart.
+- Mouse wheel to zoom.
+
 See [Visualizing results](https://docs.metaflow.org/metaflow/visualizing-results) in Metaflow docs for more information.
 
 ## Usage
