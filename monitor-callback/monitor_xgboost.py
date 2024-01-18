@@ -7,7 +7,7 @@ from metaflow.cards import VegaChart, Markdown, ProgressBar
     python="3.11.7",
 )
 class MonitorXgboostFlow(FlowSpec):
-    num_epochs = Parameter("num_epocs", default=200)
+    num_epochs = Parameter("num_epochs", default=200)
 
     def fit_xgb(self, num_rounds, update_progress):
         import xgboost as xgb
