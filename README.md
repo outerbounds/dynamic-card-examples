@@ -34,15 +34,6 @@ Depending on the type of work you want to monitor (and libraries you use), a few
  - [Monitoring a subprocess](monitor-subprocess) - Monitor work happening in a subprocess. In this case, training with SciKit Learn.
  - [Monitoring a generator](monitor-events) - Monitor work happening in a separate generator or a co-routine.
 
-## Organizing Code
-
-For pedagogical purposes, most examples in this gallery include all code in a single file. In contrast in real-life projects,
-it is a good idea to structure your cards and business logic as separate reusable modules. Take a look at the following
-examples to see how:
-
- - [Structuring cards in modules](#) - TODO
- - [Custom card decorator](#) - TODO
-
 ## Advanced Examples
 
 Simple things should be simple and complex things should be possible. Here are a few examples of more complex and advanced use cases:
